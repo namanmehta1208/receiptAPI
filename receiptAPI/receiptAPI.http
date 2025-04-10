@@ -1,0 +1,6 @@
+@receiptAPI_HostAddress = http://localhost:5067
+
+GET {{receiptAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
