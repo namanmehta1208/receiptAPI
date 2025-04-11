@@ -48,7 +48,8 @@ namespace receiptAPI.Controllers
                 Date = receiptDto.Date,
                 Amount = receiptDto.Amount,
                 Description = receiptDto.Description,
-                FilePath = filePath
+                FilePath = filePath,
+                Create_Date = DateTime.Now
             };
 
             _context.Receipts.Add(receipt);
